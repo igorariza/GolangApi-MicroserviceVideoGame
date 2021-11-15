@@ -23,12 +23,12 @@ CREATE TABLE IF NOT EXISTS articles (
     updated_at timestamp ,
     CONSTRAINT pk_notes PRIMARY KEY(id)
 );
-/* INSERT INTO users (first_name, last_name, username, email) VALUES ('Juan', 'Perez', 'juanperez', 'juanperez@email.com');
+INSERT INTO users (first_name, last_name, username, email) VALUES ('Juan', 'Perez', 'juanperez', 'juanperez@email.com');
 INSERT INTO users (first_name, last_name, username, email) VALUES ('Jhon', 'Doe', 'jhondoe', 'jhondoe@email.com');
 INSERT INTO users (first_name, last_name, username, email) VALUES ('Pedro', 'Pereira', 'pedropereira', 'pedropereira@email.com');
 INSERT INTO users (first_name, last_name, username, email) VALUES ('Maria', 'Castro', 'mariacastro', 'mariacastro@email.com');
 INSERT INTO users (first_name, last_name, username, email) VALUES ('Cristina', 'Colorado', 'cristinacolorado', 'cristinacolorado@email.com');
- */
+
 
 INSERT INTO ARTICLES (name, price, picture, description, user_id)
         VALUES ('Tetris', 200000, 'https://i.blogs.es/91fe1d/180719-mejores1989-01/1366_2000.jpeg', 'Empezamos por ese vendeconsolas (literalmente) llamado Tetris, más en concreto su adaptación a la Game Boy de Nintendo que popularizó hasta el extremo la fiebre por los videojuegos y que quedase patente que no todo eran disparos en este mundillo. Un clásico de 1984 que no deja de renovarse.', 1);
